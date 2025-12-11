@@ -37,3 +37,4 @@ coverage
 
 # Persistence (if local volumes used)
 postgres_data
+packages/db/drizzle/meta
