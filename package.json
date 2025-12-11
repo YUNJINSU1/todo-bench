@@ -6,5 +6,9 @@
     "dev:nest": "pnpm --filter api-nest dev",
     "dev:elysia": "pnpm --filter api-elysia dev",
     "dev:all": "pnpm dev:express & pnpm dev:nest & pnpm dev:elysia"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.8",
+    "lefthook": "^2.0.9"
   }
 }
