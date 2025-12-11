@@ -1,0 +1,10 @@
+{
+  "name": "todo-bench",
+  "private": true,
+  "scripts": {
+    "dev:express": "pnpm --filter api-express dev",
+    "dev:nest": "pnpm --filter api-nest dev",
+    "dev:elysia": "pnpm --filter api-elysia dev",
+    "dev:all": "pnpm dev:express & pnpm dev:nest & pnpm dev:elysia"
+  }
+}
