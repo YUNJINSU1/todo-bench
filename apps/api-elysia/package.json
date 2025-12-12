@@ -5,6 +5,7 @@
     "dev": "bun src/server.ts"
   },
   "dependencies": {
+    "@elysiajs/openapi": "^1.4.11",
     "@todo-bench/db": "workspace:*",
     "elysia": "^1.0.0",
     "pg": "^8.12.0"
